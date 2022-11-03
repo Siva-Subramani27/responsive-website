@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    background-image: url(../Image/topography.svg), linear-gradient(110deg, #f93d66, #6d47d9);
+    text-shadow: 0 2px 0 rgb(0 0 0 / 7%);
+    background-size: 340px, auto;
+}
+
+#maincontent{
+    display: flex;
+    margin-top: 30px;
+}
+#nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 50px 0px 40px;
+}
+a{
+    margin-left: 5px;
+    font-size: 30px;
+    text-align: center;
+    height: 40px;
+    width: 280px;
+    background-color: #ffc600;
+    text-transform: capitalize;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+}
+#shop{
+    margin: 0px 0px 0px 45px;
+    background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  right bottom;
+    height: 300px;
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 50px;
+    position: relative;
+}
+#shop .span{
+    background-color: #ffc600;
+    width:fit-content;
+}
+.price{
+    font-size: 60px;
+    font-weight: 300;
+}
+.item p{
+    margin: 0;
+}
+.name{
+    font-weight: bold;
+}
+#taco{
+    background-color: #ffc600;
+    height: 190px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+#kombucha{
+    background-color: #ffc600;
+    height: 190px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#party{
+    /* border: 1px solid black; */
+    display: flex;
+}
+#sec{
+    /* border: 1px solid red; */
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 23px;
+}
+#tacos,#beer,#wine,#music{
+    background-color: #ffffff;
+    width: 342px;
+    text-align: center;
+    line-height: 1rem;
+    margin-right: 20px;
+}
+.div{
+    margin-top: 20px;
+}
+.png{
+    font-size: 50px;
+}
+#party p{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+}
+#big{
+    display: flex;
+    background-color: #ffffff;
+    margin: 0px 45px 0px 45px;
+}
+#wording{
+    padding-top: 100px;
+}
+#btn{
+    background-color: #ffc600;
+    border: 1px none;
+    padding: 10px 20px;
+}
+#big #img{
+    padding: 50px 0px 0px 50px;
+}
+#images h2{
+   text-align: center;
+}
+div .img{
+    display: grid;
+    gap: 60px;
+    grid-template-columns:1fr,1fr,1fr,1fr;
+    width: 100%; 
+}
